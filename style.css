@@ -194,17 +194,51 @@ main {
     z-index: 1;
 }
 
-
-.makisushi-02 {}
-.maki-02-salmon {}
-.maki-02-arroz {}
+.maki-02-linea-01, .maki-02-linea-02 {
+    position: absolute;
+    width: 3px;
+    height: 22px;
+    background-color: var(--Arroz-blanco);
+    transform: rotate(50deg);
+    z-index: 5;
+}
+.maki-02-linea-01 {
+    top: -6px;
+    left: 6px;
+}
+.maki-02-linea-02 {
+    height: 27px;
+    top: 0px;
+    left: 12px;
+}
+.maki-02-salmon {
+    position: absolute;
+    top: 32px;
+    left: 82px;
+    width: 25px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: var(--Salmon);
+    z-index: 4;
+}
+.maki-02-arroz {
+    position: absolute;
+    top: 26px;
+    left: 72px;
+    width: 41px;
+    height: 29px;
+    border-radius: 100%;
+    background-color: var(--Arroz-blanco);
+    border: 2px solid var(--Alga-borde);
+    z-index: 3;
+}
 .maki-02-alga {
     position: absolute;
     top: 25px;
     left: 70px;
     width: 45px;
     height: 50px;
-    border-radius: 60px;
+    border-radius: 28px;
     background-color: var(--Alga-gris);
     border: 2px solid var(--Alga-borde);
     z-index: 2;

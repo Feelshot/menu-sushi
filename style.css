@@ -140,32 +140,10 @@ main {
     top: 15px;
     z-index: 4; 
 }
-.maki-linea-top-01, .maki-linea-top-02, .maki-linea-top-03, .maki-linea-top-04, .maki-linea-top-05, .maki-linea-top-06 {
-    position: absolute;
-    width: 4px;
-    height: 40px;
-    background-color: var(--Arroz-blanco);
-    transform: rotate(40deg);
-}
-.maki-linea-top-01 {
-    left: 2px;
-    top: -10px;
-}
-.maki-linea-top-02 {
-    left: 20px;
-    
-}
-.maki-linea-top-03 {
-    left: 30px;
-}
-.maki-linea-top-04 {
-    left: 55px;
-}
-.maki-linea-top-05 {
-    left: 70px;
-}
-.maki-linea-top-06 {
-    left: 90px;
+.maki-lineas-top div img {
+    width: 80px;
+    height: 30px;
+    border-radius: 0 3px 0 3px;
 }
 .maki-linea-bottom-01, .maki-linea-bottom-02, .maki-linea-bottom-03, .maki-linea-bottom-04 {
     position: absolute;
@@ -174,16 +152,16 @@ main {
     background-color: var(--Arroz-blanco);
 }
 .maki-linea-bottom-01 {
-    left: 14px;
+    left: 15px;
 }
 .maki-linea-bottom-02 {
-    left: 30px;
+    left: 32px;
 }
 .maki-linea-bottom-03 {
-    left: 46px;
+    left: 48px;
 }
 .maki-linea-bottom-04 {
-    left: 62px;
+    left: 64px;
 }
 .maki-salmon-bottom {
     position: absolute;
@@ -211,8 +189,34 @@ main {
     height: 50px;
     background-color: var(--Sombras);
     border-radius: 5px;
-    top: 46px;
-    left: 20px;
+    top: 32px;
+    left: 12px;
+    z-index: 1;
+}
+
+
+.makisushi-02 {}
+.maki-02-salmon {}
+.maki-02-arroz {}
+.maki-02-alga {
+    position: absolute;
+    top: 25px;
+    left: 70px;
+    width: 45px;
+    height: 50px;
+    border-radius: 60px;
+    background-color: var(--Alga-gris);
+    border: 2px solid var(--Alga-borde);
+    z-index: 2;
+}
+.maki-02-sombra {
+    position: absolute;
+    top: 40px;
+    left: 80px;
+    width: 45px;
+    height: 50px;
+    border-radius: 60px;
+    background-color: var(--Sombras);
     z-index: 1;
 }
 

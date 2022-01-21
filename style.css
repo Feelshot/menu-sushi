@@ -391,7 +391,67 @@ main {
 
      /* FUTOMAKI 02*/
 
-
+.futo-circle-small, .futo-circle-big {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 4px auto 0 auto;
+    width: 70px;
+    height: 5px;
+}
+.futo-circle-big img{
+    width: 6px;
+    height: 6px;
+    z-index: 5;
+}
+.futo-circle-small img{
+    width: 3px;
+    height: 3px;
+    z-index: 5;
+}
+.futo-alga-02 {
+    position: absolute;
+    width: 80px;
+    height: 25px;
+    background-color: var(--Alga-gris);
+    border: 2px solid var(--Alga-borde);
+    border-radius: 5px;
+    top: 145px;
+    left: -15px;
+    z-index: 4;
+}
+.futo-salmon {
+    position: absolute;
+    width: 80px;
+    height: 35px;
+    background-color: var(--Salmon);
+    border: 2px solid var(--Alga-borde);
+    border-radius: 5px;
+    top: 145px;
+    left: -15px;
+    z-index: 3;
+}
+.futo-arroz-02 {
+    position: absolute;
+    width: 80px;
+    height: 50px;
+    background-color: var(--Arroz-blanco);
+    border: 2px solid var(--Alga-borde);
+    border-radius: 5px;
+    top: 145px;
+    left: -15px;
+    z-index: 2;
+}
+.futo-sombra-02 {
+    position: absolute;
+    width: 80px;
+    height: 50px;
+    background-color: var(--Sombras);
+    border-radius: 5px;
+    top: 160px;
+    left: 0;
+    z-index: 1;
+}
 
 
 /* ---- Hosomaki ---- Sushi muy delgado con alga por fuera */

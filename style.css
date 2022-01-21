@@ -255,6 +255,67 @@ main {
 }
 
 
+.maki-03-salmon-claro01 {
+    position: absolute;
+    width: 40px;
+    height: 24px;
+    background-color: var(--Salmon-claro);
+    border-radius: 50% 100% 0 0;
+    top: 10px;
+    z-index: 5;
+}
+.maki-03-salmon-claro02 {
+    position: absolute;
+    width: 40px;
+    height: 24px;
+    background-color: var(--Salmon-claro);
+    border-radius: 100% 50% 0 0;
+    top: 10px;
+    left: 40px;
+    z-index: 5;
+}
+.maki-03-salmon-obscuro {
+    position: absolute;
+    width: 79px;
+    height: 30px;
+    background-color: var(--Salmon);
+    border-radius: 100% 100% 0 0;
+    top: 4px;
+    left: 2;
+    z-index: 4;
+}
+.maki-03-alga {
+    position: absolute;
+    width: 80px;
+    height: 34px;
+    background-color: var(--Alga-gris);
+    border: 2px solid var(--Alga-borde);
+    border-radius: 5px;
+    top: 140px;
+    left: -60px;
+    z-index: 3;
+}
+.maki-03-arroz {
+    position: absolute;
+    width: 80px;
+    height: 50px;
+    background-color: var(--Arroz-blanco);
+    border: 2px solid var(--Alga-borde);
+    border-radius: 5px;
+    top: 140px;
+    left: -60px;
+    z-index: 2;
+}
+.maki-03-sombra {
+    position: absolute;
+    width: 80px;
+    height: 50px;
+    background-color: var(--Sombras);
+    border-radius: 5px;
+    top: 155px;
+    left: -45px;
+    z-index: 1;
+}
 
 /* ---- Futomaki ----  Sushis gordos*/
 .futomaki{

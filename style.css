@@ -570,31 +570,128 @@ main {
 }
 
 /*HOSOMAKI 03*/
-.hoso-03-ingrediente {}
-.hoso-03-arroz {}
-.hoso-03-alga {}
+.hoso-03-ingrediente {
+    position: absolute;
+    width: 2px;
+    background-color: var(--Salmon);
+    z-index: 4;
+}
+.hoso-linea-01 {
+    height: 17px;
+    top: 177px;
+    left: 28px;
+}
+.hoso-linea-02 {
+    height: 28px;
+    top: 168px;
+    left: 39px; 
+}
+.hoso-linea-03 {
+    height: 17px;
+    top: 170px;
+    left: 49px;
+}
+.hoso-03-arroz {
+    position: absolute;
+    width: 41px;
+    height: 28px;
+    top: 166px;
+    left: 17px;
+    background-color: var(--Salmon-claro);
+    border: 2px solid var(--Alga-borde);
+    border-radius: 50%;
+    z-index: 3;
+}
+.hoso-03-alga {
+    position: absolute;
+    width: 45px;
+    height: 40px;
+    top: 166px;
+    left: 15px;
+    background-color: var(--Alga-gris);
+    border: 2px solid var(--Alga-borde);
+    border-radius: 50%;
+    z-index: 2;
+}
 .hoso-03-sombra {
     position: absolute;
-    width: 40px;
-    height: 45px;
+    width: 45px;
+    height: 40px;
     top: 180px;
     left: 30px;
     background-color: var(--Sombras);
     border-radius: 50%;
+    z-index: 1;
 }
 
 /*HOSOMAKI 04*/
-.hoso-04-ingrediente {}
-.hoso-04-arroz {}
-.hoso-04-alga {}
+.hoso-04-ingrediente {
+
+}
+.hoso-cuartito-01 {
+    position: absolute;
+    width: 16px;
+    height: 14px;
+    top: 176px;
+    left: -108px;
+    background-color: var(--Salmon);
+    border: 2px solid var(--Alga-borde);
+    border-radius: 100%;
+    z-index: 4;
+}
+.hoso-cuartito-02 {
+    position: absolute;
+    width: 8px;
+    height: 6px;
+    top: 176px;
+    left: -109px;
+    background-color: var(--Amarillo);
+    border: 2px solid var(--Alga-borde);
+    border-radius: 100% 0 0 0;
+    z-index: 5;
+}
+.hoso-cuartito-03 {
+    position: absolute;
+    width: 8px;
+    height: 6px;
+    top: 184px;
+    left: -109px;
+    background-color: var(--Pepino);
+    border: 2px solid var(--Alga-borde);
+    border-radius: 0 0 0 100%;
+    z-index: 5;
+}
+.hoso-04-arroz {
+    position: absolute;
+    width: 41px;
+    height: 28px;
+    top: 168px;
+    left: -120px;
+    background-color: var(--Arroz-blanco);
+    border: 2px solid var(--Alga-borde);
+    border-radius: 50%;
+    z-index: 3;
+}
+.hoso-04-alga {
+    position: absolute;
+    width: 45px;
+    height: 40px;
+    top: 168px;
+    left: -122px;
+    background-color: var(--Alga-gris);
+    border: 2px solid var(--Alga-borde);
+    border-radius: 50%;
+    z-index: 2;
+}
 .hoso-04-sombra {
     position: absolute;
-    width: 40px;
-    height: 45px;
+    width: 45px;
+    height: 40px;
     top: 180px;
     left: -110px;
     background-color: var(--Sombras);
     border-radius: 50%;
+    z-index: 1;
 }
 
 /* ---- Uragami ---- Sushi normal, con alga por fuera */

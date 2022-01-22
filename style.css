@@ -1,7 +1,7 @@
 :root {
     --verde: rgb(7, 58, 0);
     --Alga-gris: rgb(88, 106, 131);
-    --Alga-borde: rgb(20, 37, 59);
+    --Alga-borde: hsl(211, 59%, 20%);
     --Salmon: rgb(225, 105, 71);
     --Salmon-claro: rgb(234, 174, 148);
     --Pepino: rgb(105, 166, 133);
@@ -29,10 +29,8 @@ body {
 }
 /*Sushis contenedores padres*/
 .makisushi-01, .makisushi-02, .makisushi-03, .futomaki-01, .futomaki-02, .hosomaki-01, .hosomaki-02, .hosomaki-03, .hosomaki-04, .urakami-01, .urakami-02, .urakami-03, .nigiri-01, .nigiri-02, .oshizushi-01, .oshizushi-02, .oshizushi-03 {
-
     width: 50px;
     height: 50px;
-    margin-left: 10px;
     position: relative;
 }
 .sushi-container-02, .sushi-container-03, .sushi-container-04 {
@@ -332,7 +330,6 @@ main {
 .futomaki .sushi-container-02 {
     height: 100%;
 }
-
      /* FUTOMAKI 01*/
 
 .futo-alga-01 {
@@ -341,7 +338,7 @@ main {
     height: 54px;
     background-color: var(--Alga-borde);
     top: 25px;
-    left: 57px;
+    left: 32px;
     z-index: 5;
 }
 .futo-trigo-top {
@@ -352,7 +349,7 @@ main {
     border-radius: 5px;
     border: 2px solid var(--Alga-borde);
     top: 25px;
-    left: 25px;
+    left: 0;
     z-index: 4;
 }
 .futo-trigo-bottom {
@@ -363,7 +360,7 @@ main {
     border-radius: 5px;
     border: 2px solid var(--Alga-borde);
     top: 25px;
-    left: 25px;
+    left: 0;
     z-index: 3;
 }
 .futo-arroz-01 {
@@ -374,7 +371,7 @@ main {
     border-radius: 5px;
     border: 2px solid var(--Alga-borde);
     top: 25px;
-    left: 25px;
+    left: 0;
     z-index: 2;
 
 }
@@ -385,10 +382,9 @@ main {
     background-color: var(--Sombras);
     border-radius: 5px;
     top: 40px;
-    left: 40px;
+    left: 15px;
     z-index: 1;
 }
-
      /* FUTOMAKI 02*/
 
 .futo-circle-small, .futo-circle-big {
@@ -467,6 +463,96 @@ main {
 .hosomaki .sushi-container-04 {
     height: 100%;
 }
+
+/*HOSOMAKI 01*/
+.hoso-01-ingrediente {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    top: 50px;
+    left: 41px;
+    background-color: var(--Pepino);
+    border: 2px solid var(--Pepino-borde);
+    border-radius: 100% 0 0 0;
+    transform: rotate(50deg);
+    z-index: 4;
+}
+.hoso-01-arroz {
+    position: absolute;
+    width: 41px;
+    height: 30px;
+    top: 46px;
+    left: 27px;
+    background-color: var(--Arroz-blanco);
+    border: 2px solid var(--Alga-borde);
+    border-radius: 50%;
+    z-index: 3;
+}
+.hoso-01-alga {
+    position: absolute;
+    width: 45px;
+    height: 43px;
+    top: 45px;
+    left: 25px;
+    background-color: var(--Alga-gris);
+    border: 2px solid var(--Alga-borde);
+    border-radius: 50%;
+    z-index: 2;
+}
+.hoso-01-sombra {
+    position: absolute;
+    width: 45px;
+    height: 40px;
+    top: 60px;
+    left: 40px;
+    background-color: var(--Sombras);
+    border-radius: 50%;
+    z-index: 1;
+
+}
+
+/*HOSOMAKI 02*/
+.hoso-02-ingrediente {}
+.hoso-02-arroz {}
+.hoso-02-alga {}
+.hoso-02-sombra {
+    position: absolute;
+    width: 40px;
+    height: 45px;
+    top: 60px;
+    left: 80px;
+    background-color: var(--Sombras);
+    border-radius: 50%; 
+}
+
+/*HOSOMAKI 03*/
+.hoso-03-ingrediente {}
+.hoso-03-arroz {}
+.hoso-03-alga {}
+.hoso-03-sombra {
+    position: absolute;
+    width: 40px;
+    height: 45px;
+    top: 180px;
+    left: 30px;
+    background-color: var(--Sombras);
+    border-radius: 50%;
+}
+
+/*HOSOMAKI 04*/
+.hoso-04-ingrediente {}
+.hoso-04-arroz {}
+.hoso-04-alga {}
+.hoso-04-sombra {
+    position: absolute;
+    width: 40px;
+    height: 45px;
+    top: 180px;
+    left: -110px;
+    background-color: var(--Sombras);
+    border-radius: 50%;
+}
+
 /* ---- Uragami ---- Sushi normal, con alga por fuera */
 .urakami {
     width: 250px;

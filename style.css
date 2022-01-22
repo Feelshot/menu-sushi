@@ -512,17 +512,61 @@ main {
 }
 
 /*HOSOMAKI 02*/
-.hoso-02-ingrediente {}
-.hoso-02-arroz {}
-.hoso-02-alga {}
+.pepino-hoso {
+    position: absolute;
+    width: 5px;
+    height: 3px;
+    border: 2px solid var(--Pepino-borde);
+    border-radius: 100%;
+    z-index: 4;
+}
+.hoso-pepino-01 {
+    top: 52px;
+    left: 90px;
+}
+.hoso-pepino-02 {
+    top: 62px;
+    left: 90px;
+}
+.hoso-pepino-03 {
+    top: 57px;
+    left: 82px;
+}
+.hoso-pepino-04 {
+    top: 57px;
+    left: 98px;
+}
+.hoso-02-arroz {
+    position: absolute;
+    width: 41px;
+    height: 30px;
+    top: 45px;
+    left: 72px;
+    background-color: var(--Salmon);
+    border: 2px solid var(--Alga-borde);
+    border-radius: 50%;
+    z-index: 3;
+}
+.hoso-02-alga {
+    position: absolute;
+    width: 45px;
+    height: 40px;
+    top: 45px;
+    left: 70px;
+    background-color: var(--Alga-gris);
+    border: 2px solid var(--Alga-borde);
+    border-radius: 50%;
+    z-index: 2;
+}
 .hoso-02-sombra {
     position: absolute;
-    width: 40px;
-    height: 45px;
+    width: 45px;
+    height: 40px;
     top: 60px;
     left: 80px;
     background-color: var(--Sombras);
     border-radius: 50%; 
+    z-index: 1;
 }
 
 /*HOSOMAKI 03*/

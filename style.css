@@ -625,9 +625,6 @@ main {
 }
 
 /*HOSOMAKI 04*/
-.hoso-04-ingrediente {
-
-}
 .hoso-cuartito-01 {
     position: absolute;
     width: 16px;
@@ -720,6 +717,181 @@ main {
 .nigiri .sushi-container-02 {
     height: 100%;
 }
+.nigi-parche-top-01 {
+    position: absolute;
+    width: 20px;
+    height: 12px;
+    left: 102px;
+    top: 66px;
+    background-color: var(--Salmon);
+    z-index: 19;
+}
+.nigi-salmon-borde-01 {
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    top: 55px;
+    left: 25px;
+    border: 2px solid var(--Alga-borde);
+    border-radius: 5px;
+    z-index: 8;
+}
+
+.nigi-linea-top-01, .nigi-linea-top-02, .nigi-linea-top-03, .nigi-linea-top-04, .nigi-linea-top-05, .nigi-linea-top-06 {
+    position: absolute;
+    width: 3px;
+    height: 23px;
+    top: -5px;
+    background-color: var(--Arroz-blanco);
+    border-radius: 5px 0 0 0;
+    transform: rotate(45deg);
+    z-index: 7;
+}
+
+.nigi-linea-horizontal-01 {
+    position: absolute;
+    width: 95px;
+    height: 3px;
+    top: 70px;
+    left: 27px;
+    background-color: var(--Arroz-blanco);
+    z-index: 20;
+}
+
+.nigi-linea-top-bottom-01, .nigi-linea-top-bottom-02, .nigi-linea-top-bottom-03, .nigi-linea-top-bottom-04, .nigi-linea-top-bottom-05, .nigi-linea-top-bottom-06 {
+    position: absolute;
+    width: 3px;
+    height: 23px;
+    top: 12px;
+    background-color: var(--Arroz-blanco);
+    border-radius: 0 0 0 10px;
+    transform: rotate(-45deg);
+    z-index: 7;
+}
+.nigi-linea-top-bottom-01, .nigi-linea-top-01 {
+    left: 7px;
+}
+.nigi-linea-top-bottom-02, .nigi-linea-top-02 {
+    left: 19px;
+}
+.nigi-linea-top-bottom-03, .nigi-linea-top-03 {
+    left: 32px;
+}
+.nigi-linea-top-bottom-04, .nigi-linea-top-04 {
+    left: 45px;
+}
+.nigi-linea-top-bottom-05, .nigi-linea-top-05 {
+    left: 58px;
+}
+.nigi-linea-top-bottom-06, .nigi-linea-top-06 {
+    left: 70px;
+}
+
+
+.nigi-circle-top-top-01 {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: -2px;
+    left: 78px;
+    background-color: var(--Salmon);
+    border: 2px solid var(--Alga-borde);
+    border-radius: 100% 0 0 0;
+    z-index: 5;
+}
+.nigi-circle-top-bottom-01 {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 12px;
+    left: 78px;
+    background-color: var(--Salmon);
+    border: 2px solid var(--Alga-borde);
+    border-radius: 0 0 0 100%;
+    z-index: 5;
+}
+.nigi-salmon-top-01 {
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    top: 55px;
+    left: 25px;
+    background-color: var(--Salmon);
+    border: 2px solid var(--Alga-borde);
+    border-radius: 5px;
+    z-index: 5;
+}
+.nigi-linea-bottom-01, .nigi-linea-bottom-02, .nigi-linea-bottom-03, .nigi-linea-bottom-04, .nigi-linea-bottom-05 {
+    position: absolute;
+    width: 3px;
+    height: 8px;
+    background-color: var(--Arroz-blanco);
+    z-index: 4;
+}
+.nigi-linea-bottom-01 {
+    left: 13px;
+    top: 32px;
+}
+.nigi-linea-bottom-02 {
+    left: 26px;
+    top: 32px;
+}
+.nigi-linea-bottom-03 {
+    left: 39px;
+    top: 32px;
+}
+.nigi-linea-bottom-04 {
+    left: 52px;
+    top: 32px;
+}
+.nigi-linea-bottom-05 {
+    left: 65px;
+    top: 32px;
+}
+.nigi-circle-bottom-01 {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 21px;
+    left: 78px;
+    background-color: var(--Salmon);
+    border: 2px solid var(--Alga-borde);
+    border-radius: 0 0 0 100%;
+    z-index: 3;
+}
+.nigi-salmon-bottom-01 {
+    position: absolute;
+    width: 80px;
+    height: 40px;
+    top: 55px;
+    left: 25px;
+    background-color: var(--Salmon);
+    border: 2px solid var(--Alga-borde);
+    border-radius: 5px;
+    z-index: 3;
+}
+.nigi-arroz-01 {
+    position: absolute;
+    width: 80px;
+    height: 50px;
+    top: 65px;
+    left: 25px;
+    background-color: var(--Arroz-blanco);
+    border: 2px solid var(--Alga-borde);
+    border-radius: 5px;
+    z-index: 2;
+}
+.nigi-sombra-01 {
+    position: absolute;
+    width: 80px;
+    height: 50px;
+    top: 80px;
+    left: 40px;
+    background-color: var(--Sombras);
+    border-radius: 5px;
+    z-index: 1;
+}
+
 /* ---- Oshizushi ---- Sushi cuadrado */
 .oshizushi {
     width: 250px;

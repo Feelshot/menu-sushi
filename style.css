@@ -1326,6 +1326,114 @@ main {
     height: 100%;
 }
 
+/*OSHIZUSHI 01*/
+.oshi-01-ingrediente {}
+.oshi-01-linea-parche-02 {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    top: 69px;
+    left: 63px;
+    background-color: var(--Alga-gris);
+    border-radius: 0 2px 0 0;
+    transform: skewy(18deg);
+    z-index: 6;
+}
+.oshi-01-linea-parche-01 {
+    position: absolute;
+    width: 3px;
+    height: 22px;
+    top: 65px;
+    left: 56px;
+    background-color: var(--Alga-gris);
+    transform: rotate(60deg);
+    border-radius: 0 2px 0 2px;
+    z-index: 5;
+}
+.oshi-01-arroz {
+    position: absolute;
+    width: 34px;
+    height: 40px;
+    top: 74px;
+    left: 10px;
+    background-color: var(--Arroz-blanco);
+    border: 2px solid var(--Alga-borde);
+    border-radius: 1px 0 2px 0;
+    transform: skewY(20deg);
+    z-index: 4;
+}
+.oshi-01-top-container {
+    position: absolute;
+    transform: rotate(20deg);
+    z-index: 3;
+}
+.oshi-01-top {
+    position: absolute;
+    width: 38px;
+    height: 17px;
+    top: 40px;
+    left: 40px;
+    background-color: var(--Alga-gris);
+    border: 2px solid var(--Alga-borde);
+    border-radius: 0 3px 0 3px;
+    transform: skew(-40deg);
+}
+.oshi-01-right {
+    position: absolute;
+    width: 20px;
+    height: 40px;
+    top: 75px;
+    left: 46px;
+    background-color: var(--Alga-gris);
+    border: 2px solid var(--Alga-borde);
+    border-radius: 0 0 0 3px;
+    transform: skewY(-30deg);
+    z-index: 2;
+}
+.oshi-01-sombra {
+    position: absolute;
+    width: 40px;
+    height: 26px;
+    top: 98px;
+    left: 55px;
+    background-color: var(--Sombras);
+    transform: skew(-48deg);
+    z-index: 1;
+}
+
+/*OSHIZUSHI 02*/
+.oshi-02-ingrediente {}
+.oshi-02-arroz {}
+.oshi-02-top {}
+.oshi-02-right {}
+.oshi-02-sombra {
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    top: 90px;
+    left: 80px;
+    background-color: var(--Sombras);
+    transform: skew(-20deg);
+    z-index: 1;
+}
+
+/*OSHIZUSHI 03*/
+.oshi-03-ingrediente {}
+.oshi-03-arroz {}
+.oshi-03-top {}
+.oshi-03-right {}
+.oshi-03-left {}
+.oshi-03-sombra {
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    top: 180px;
+    left: -20px;
+    background-color: var(--Sombras);
+    transform: skew(-20deg);
+    z-index: 1;
+}
+
 /* =-=-=-= Media Queries =-=-=-=*/
 @media (max-width: 900px){
     main {

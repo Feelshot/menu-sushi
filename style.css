@@ -36,7 +36,6 @@ body {
 .sushi-container-02, .sushi-container-03, .sushi-container-04 {
     display: flex;
 }
-
 /* ---- Palillos header ---- */
 header {
     /*
@@ -100,26 +99,19 @@ h1 {
     left: 90px;
     border-radius: 0 20px 20px 0;
 }
-
 /* ==== Main | Tipos de sushi ==== */
 main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /*
-    border: 2px solid aqua;  
-    */
-
-
+    /* border: 2px solid aqua;  */
     display: grid;
     grid-template-columns: 250px 250px 250px;
     grid-template-rows: 250px 250px;
     column-gap: 20px;
     row-gap: 20px;
-
 }
-
 /* ---- Makisushi ----  Sushis con el alga por dentro */
 .makisushi {
     width: 250px;
@@ -133,7 +125,6 @@ main {
 .makisushi .sushi-container-03 {
     height: 100%;
 }
-
 /* MAKISUSHI 01*/
 .maki-salmon-top {
     position: absolute;
@@ -198,7 +189,6 @@ main {
     left: 12px;
     z-index: 1;
 }
-
 /* MAKISUSHI 02*/
 .maki-02-linea-01, .maki-02-linea-02 {
     position: absolute;
@@ -259,7 +249,6 @@ main {
     background-color: var(--Sombras);
     z-index: 1;
 }
-
 /* MAKISUSHI 03*/
 .maki-03-salmon-claro01 {
     position: absolute;
@@ -322,7 +311,6 @@ main {
     left: -45px;
     z-index: 1;
 }
-
 /* ---- Futomaki ----  Sushis gordos*/
 .futomaki{
     width: 250px;
@@ -336,7 +324,6 @@ main {
 .futomaki .sushi-container-02 {
     height: 100%;
 }
-
 /* FUTOMAKI 01*/
 .futo-alga-01 {
     position: absolute;
@@ -391,7 +378,6 @@ main {
     left: 15px;
     z-index: 1;
 }
-
 /* FUTOMAKI 02*/
 .futo-circle-small, .futo-circle-big {
     display: flex;
@@ -454,7 +440,6 @@ main {
     left: 0;
     z-index: 1;
 }
-
 /* ---- Hosomaki ---- Sushi muy delgado con alga por fuera */
 .hosomaki {
     width: 250px;
@@ -468,7 +453,6 @@ main {
 .hosomaki .sushi-container-04 {
     height: 100%;
 }
-
 /*HOSOMAKI 01*/
 .hoso-01-ingrediente {
     position: absolute;
@@ -515,7 +499,6 @@ main {
     z-index: 1;
 
 }
-
 /*HOSOMAKI 02*/
 .pepino-hoso {
     position: absolute;
@@ -573,7 +556,6 @@ main {
     border-radius: 50%; 
     z-index: 1;
 }
-
 /*HOSOMAKI 03*/
 .hoso-03-ingrediente {
     position: absolute;
@@ -628,7 +610,6 @@ main {
     border-radius: 50%;
     z-index: 1;
 }
-
 /*HOSOMAKI 04*/
 .hoso-cuartito-01 {
     position: absolute;
@@ -695,7 +676,6 @@ main {
     border-radius: 50%;
     z-index: 1;
 }
-
 /* ---- Urakami ---- Sushi normal, con alga por fuera */
 .urakami {
     width: 250px;
@@ -709,7 +689,6 @@ main {
 .urakami .sushi-container-03 {
     height: 100%;
 }
-
 /*URAKAMI 01*/
 .pepino-ura {
     position: absolute;
@@ -808,7 +787,6 @@ main {
     border-radius: 100%;
     z-index: 1;
 }
-
 /*URAKAMI 02*/
 .ura-02-linea-01, .ura-02-linea-02 {
     position: absolute;
@@ -899,7 +877,6 @@ main {
     border-radius: 100%;
     z-index: 1;
 }
-
 /*URAKAMI 03*/
 .ura-03-trigo {
     position: absolute;
@@ -995,9 +972,7 @@ main {
     border-radius: 100%;
     z-index: 1;
 }
-
 /* ---- Nigiri ---- Arroz con salmoun arriba*/
-
 /*NIGIRI 01*/
 .nigiri {
     width: 250px;
@@ -1180,7 +1155,6 @@ main {
     border-radius: 5px;
     z-index: 1;
 }
-
 /*NIGIRI 02*/
 .nigi-camaron-top-01 {
     position: absolute;
@@ -1317,7 +1291,6 @@ main {
     border-radius: 5px;
     z-index: 1;
 }
-
 /* ---- Oshizushi ---- Sushi cuadrado */
 .oshizushi {
     width: 250px;
@@ -1331,11 +1304,42 @@ main {
 .oshizushi .sushi-container-03 {
     height: 100%;
 }
-
 /*OSHIZUSHI 01*/
-.oshi-01-ingrediente {
-
+.oshi-01-ingrediente-01 {
+    position: absolute;
+    width: 16px;
+    height: 18px;
+    top: 82px;
+    left: 18px;
+    background-color: var(--Salmon);
+    border-radius: 0 0 40px 0;
+    transform: skewY(20deg);
+    z-index: 9;
 }
+.oshi-01-ingrediente-02 {
+    position: absolute;
+    width: 16px;
+    height: 18px;
+    top: 91px;
+    left: 24px;
+    background-color: var(--Amarillo);
+    border-radius: 20px 0 0 0;
+    transform: skewY(20deg);
+    z-index: 8;
+}
+.oshi-01-ingrediente-03 {
+    position: absolute;
+    width: 22px;
+    height: 25px;
+    top: 81px;
+    left: 16px;
+    background-color: var(--Pepino);
+    border: 2px solid var(--Pepino-borde);
+    transform: skewY(20deg);
+    z-index: 7;
+}
+
+
 .oshi-01-linea-parche-02 {
     position: absolute;
     width: 5px;
@@ -1408,9 +1412,48 @@ main {
     transform: skew(-20deg);
     z-index: 1;
 }
-
 /*OSHIZUSHI 02*/
-.oshi-02-ingrediente {}
+.oshi-02-ingrediente-01 {
+    position: absolute;
+    width: 2px;
+    height: 13px;
+    top: 83px;
+    left: 93px;
+    background-color: var(--Salmon);
+    border-radius: 4px;
+    z-index: 8;
+}   
+.oshi-02-ingrediente-02 {
+    position: absolute;
+    width: 2px;
+    height: 13px;
+    top: 94px;
+    left: 81px;
+    background-color: var(--Salmon);
+    border-radius: 4px;
+    z-index: 8;
+}
+.oshi-02-ingrediente-03 {
+    position: absolute;
+    width: 2px;
+    height: 26px;
+    top: 82px;
+    left: 87px;
+    background-color: var(--Salmon);
+    z-index: 8;
+}
+.oshi-02-ingrediente-04 {
+    position: absolute;
+    width: 22px;
+    height: 25px;
+    top: 81px;
+    left: 76px;
+    background-color: var(--Salmon-claro);
+    border: 2px solid var(--Salmon);
+    border-radius: 6px 0 6px 0;
+    transform: skewY(20deg);
+    z-index: 7;
+}
 .oshi-02-linea-parche-01 {
     position: absolute;
     width: 5px;
@@ -1483,9 +1526,36 @@ main {
     transform: skew(-20deg);
     z-index: 1;
 }
-
 /*OSHIZUSHI 03*/
-.oshi-03-ingrediente {}
+.oshi-03-ingrediente-01 {
+    position: absolute;
+    width: 26px;
+    height: 2px;
+    top: 185px;
+    left: -12px;
+    background-color: var(--Arroz-blanco);
+    z-index: 7;
+}
+.oshi-03-ingrediente-02 {
+    position: absolute;
+    width: 26px;
+    height: 2px;
+    top: 194px;
+    left: -12px;
+    background-color: var(--Arroz-blanco);
+    z-index: 7;
+}
+.oshi-03-ingrediente-03 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 181px;
+    left: -9px;
+    background-color: var(--Salmon);
+    border-radius: 4px;
+    transform: rotate(-45deg) skew(15deg, 15deg);
+    z-index: 6;
+}
 .oshi-03-arroz {
     position: absolute;
     width: 30px;
@@ -1583,7 +1653,6 @@ main {
     transform: skew(-20deg);
     z-index: 1;
 }
-
 /* =-=-=-= Media Queries =-=-=-=*/
 @media (max-width: 900px){
     main {

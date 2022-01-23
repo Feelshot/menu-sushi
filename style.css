@@ -709,7 +709,7 @@ main {
     position: absolute;
     width: 50px;
     height: 50px;
-    top: 35px;
+    top: 85px;
     left: 5px;
     background-color: var(--Alga-gris);
     border: 2px solid var(--Alga-borde);
@@ -720,7 +720,7 @@ main {
     position: absolute;
     width: 50px;
     height: 50px;
-    top: 50px;
+    top: 100px;
     left: 20px;
     background-color: var(--Sombras);
     border-radius: 100%;
@@ -728,12 +728,91 @@ main {
 
 }
 /*URAKAMI 02*/
+.ura-02-linea-01, .ura-02-linea-02 {
+    position: absolute;
+    width: 3px;
+    height: 26px;
+    background-color: var(--Arroz-blanco);
+    transform: rotate(45deg);
+    z-index: 8;
+}
+.ura-02-linea-01 {
+    top: 63px;
+    left: 80px;
+}
+.ura-02-linea-02 {
+    top: 68px;
+    left: 90px;
+}
+.ura-02-ingrediente {
+    position: absolute;
+    width: 28px;
+    height: 22px;
+    top: 67px;
+    left: 73px;
+    background-color: var(--Salmon);
+    border-radius: 100%;
+    z-index: 7;
+}
+.ura-02-arroz {
+    position: absolute;
+    width: 44px;
+    height: 34px;
+    top: 60px;
+    left: 63px;
+    background-color: var(--Arroz-blanco);
+    border: 2px solid var(--Alga-borde);
+    border-radius: 100%;
+    z-index: 6;
+}
+.ura-02-parche {
+    position: absolute;
+    width: 50px;
+    height: 40px;
+    top: 80px;
+    left: 62px;
+    background-color: var(--Alga-gris);
+    border-radius: 7px;
+    z-index: 5;
+}
+.ura-02-alga-top {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 60px;
+    left: 60px;
+    background-color: var(--Alga-gris);
+    border: 2px solid var(--Alga-borde);
+    border-radius: 100%;
+    z-index: 4;
+}
+.ura-02-alga-cuadro {
+    position: absolute;
+    width: 50px;
+    height: 18px;
+    top: 88px;
+    left: 60px;
+    background-color: var(--Alga-gris);
+    border: 2px solid var(--Alga-borde);
+    z-index: 3;
+}
+.ura-02-alga-bottom {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 85px;
+    left: 60px;
+    background-color: var(--Alga-gris);
+    border: 2px solid var(--Alga-borde);
+    border-radius: 100%;
+    z-index: 2;
+}
 .ura-02-sombra {
     position: absolute;
     width: 50px;
     height: 50px;
-    top: 50px;
-    left: 50px;
+    top: 100px;
+    left: 75px;
     background-color: var(--Sombras);
     border-radius: 100%;
     z-index: 1;
